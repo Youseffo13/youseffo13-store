@@ -21,6 +21,6 @@ gallery:
   - https://docs.craftycontrol.com/img/page-assets/user-guide/server-configuration/minecraft-config-overview.png
   - https://docs.craftycontrol.com/img/page-assets/user-guide/backup-manager/backup-manager-overview.png
 dependencies: []
-path: ""
+path: "https://umbrel.local:18443"
 defaultUsername: "admin"
 defaultPassword: "umbrelcrafty"
