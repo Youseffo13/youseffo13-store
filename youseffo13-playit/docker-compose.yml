@@ -3,7 +3,7 @@ version: '1.0.10'
 services:
   app_proxy:
     environment:
-      APP_HOST: brcly-playit_server_1
+      APP_HOST: youseffo13-playit_server_1
       APP_PORT: 8008
       PROXY_AUTH_ADD: "false"
   
