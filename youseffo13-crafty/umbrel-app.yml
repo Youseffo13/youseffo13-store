@@ -7,7 +7,7 @@ category: Gaming
 version: "4.10.7"
 port: 8443
 description: >-
-  Crafty Controller is a versatile all-in-one Open-Source Minecraft Server Manager. From Vanilla Bedrock to Modded Java, Crafty can manage it all!
+  Crafty Controller is a Minecraft Server Control Panel / Launcher. The purpose of Crafty Controller is to launch a Minecraft Server in the background and present a web interface for the server administrators to interact with their servers.
 
   Please change the password from the default credentials
 developer: Arcadia Technology
