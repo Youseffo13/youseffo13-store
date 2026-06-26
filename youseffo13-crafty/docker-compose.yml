@@ -11,7 +11,7 @@ services:
       
 
   server:
-    image: arcadiatechnology/crafty-4:4.4.9
+    image: arcadiatechnology/crafty-4
     restart: on-failure
     environment:
       - PUID=1000
