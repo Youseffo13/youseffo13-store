@@ -1,10 +1,10 @@
 manifestVersion: 1
-id: brcly-crafty
+id: youseffo13-crafty
 name: Crafty
 tagline: Manage multiple Minecraft Server intances.
 icon: https://docs.craftycontrol.com/img/favicon.ico
 category: Gaming
-version: "4.4.9"
+version: "4.10.7"
 port: 8443
 description: >-
   Crafty Controller is a versatile all-in-one Open-Source Minecraft Server Manager. From Vanilla Bedrock to Modded Java, Crafty can manage it all!
@@ -12,7 +12,7 @@ description: >-
   Please change the password from the default credentials
 developer: Arcadia Technology
 website: https://craftycontrol.com
-submitter: Brcly
+submitter: Youseffo13
 submission: N/A
 repo: https://gitlab.com/crafty-controller/crafty-4
 gallery:

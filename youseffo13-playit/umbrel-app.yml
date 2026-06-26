@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: brcly-playit #only shows in app store when setting the store name first. Weird
+id: youseffo13-playit #only shows in app store when setting the store name first. Weird
 name: Playit
 tagline: Allow outside connections to game servers through tunnelling.
 icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-Coolstore@main/Apps/playit-docker-web/icon.png
@@ -10,7 +10,7 @@ description: >-
   Playit allows outside connections to tunnel into your self-hosted game servers.
 developer: PlayIt
 website: https://playit.gg
-submitter: Brcly
+submitter: Youseffo13
 submission: N/A
 gallery:
  - https://raw.githubusercontent.com/WisdomSky/playit-docker-web/main/screenshot-1.png
