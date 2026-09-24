@@ -1,12 +1,13 @@
 version: '4.11.0'
 
 services:
-  app_proxy:
-    environment:
-      APP_HOST: youseffo13-crafty_server_1
-      APP_PORT: 8443
-      APP_PROTOCOL: "https"
-      PROXY_TRUST_UPSTREAM: "true"
+  # app_proxy:
+  #   environment:
+  #     # APP_HOST: youseffo13-crafty_server_1
+  #     # APP_PORT: 8443
+  #     # PROXY_AUTH_ADD: "false"
+  #     # PROXY_TRUST_UPSTREAM: "true"
+  #     APP_PROTOCOL: "https"
 
   server:
     image: arcadiatechnology/crafty-4
@@ -17,7 +18,7 @@ services:
       - TZ=Etc/UTC
     ports:
       - 8000:8000
-##      - 8443:8443 # APP
+      - 8443:8443 # APP
       - 8523:8123 # DYNMAP
       - 19132:19132/udp # BEDROCK
       - 25500-25600:25500-25600 # MC SERV PORT RANGE
