@@ -4,7 +4,7 @@ name: Crafty
 tagline: Manage multiple Minecraft Server instances.
 icon: https://docs.craftycontrol.com/img/favicon.ico
 category: Gaming
-version: "4.11.0"
+version: "4.11.0.1"
 port: 8443
 description: >-
   Crafty Controller is a Minecraft Server Control Panel / Launcher. The purpose of Crafty Controller is to launch a Minecraft Server in the background and present a web interface for the server administrators to interact with their servers.
