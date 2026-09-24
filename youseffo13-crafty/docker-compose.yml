@@ -1,17 +1,14 @@
 version: '4.11.0'
 
 services:
-  # app_proxy:
-  #   environment:
-  #     # APP_HOST: youseffo13-crafty_server_1
-  #     # APP_PORT: 8443
-  #     # PROXY_AUTH_ADD: "false"
-  #     # PROXY_TRUST_UPSTREAM: "true"
-  #     APP_PROTOCOL: "https"
-
+  app_proxy:
+    environment:
+      APP_HOST: youseffo13-crafty_server_1
+      APP_PORT: 8443
+      APP_PROTOCOL: "https"
 
   server:
-    image: registry.gitlab.com/crafty-controller/crafty-4:latest
+    image: arcadiatechnology/crafty-4
     restart: on-failure
     environment:
       - PUID=1000
