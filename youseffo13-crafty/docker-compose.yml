@@ -6,6 +6,7 @@ services:
       APP_HOST: youseffo13-crafty_server_1
       APP_PORT: 8443
       APP_PROTOCOL: "https"
+      PROXY_TRUST_UPSTREAM: "true"
 
   server:
     image: arcadiatechnology/crafty-4
