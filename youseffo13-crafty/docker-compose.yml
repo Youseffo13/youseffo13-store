@@ -4,11 +4,10 @@ services:
   app_proxy:
     environment:
       APP_HOST: youseffo13-crafty_server_1
-      APP_PORT: 8443
+      APP_PORT: 8000
       PROXY_AUTH_ADD: "false"
       PROXY_TRUST_UPSTREAM: "true"
-      APP_PROTOCOL: "https"
-      NODE_TLS_REJECT_UNAUTHORIZED: "0"
+      APP_PROTOCOL: "http"
 
   server:
     image: arcadiatechnology/crafty-4
