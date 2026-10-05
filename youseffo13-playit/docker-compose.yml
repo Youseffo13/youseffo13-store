@@ -1,4 +1,4 @@
-version: '1.0.10.1'
+version: '1.0.10.3'
 
 services:
   app_proxy:
@@ -8,11 +8,8 @@ services:
       PROXY_AUTH_ADD: "false"
 
   server:
-    image: wisdomsky/playit-docker-web:latest
+    image: ghcr.io/playit-cloud/playit-agent:latest
     restart: on-failure
     network_mode: host
-    sysctls:
-      - net.ipv6.conf.all.disable_ipv6=1
-      - net.ipv6.conf.default.disable_ipv6=1
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
