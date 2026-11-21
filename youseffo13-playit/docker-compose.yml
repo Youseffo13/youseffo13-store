@@ -1,5 +1,3 @@
-version: '1.0.10.4'
-
 services:
   app_proxy:
     environment:
@@ -8,7 +6,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   server:
-    image: wisdomsky/playit-docker-web:latest
+    image: wisdomsky/playit-docker-web:2.0.2
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
